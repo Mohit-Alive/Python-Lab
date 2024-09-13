@@ -10,7 +10,7 @@ print(tuple1)
 print(tuple1[1])
 
 # Slicing
-print(tuple1[1:2])
+print(tuple1[1:3])
 
 # Length
 print(len(tuple1))
@@ -40,6 +40,15 @@ print(sets1)
 # Remove from last
 sets1.pop()
 print(sets1)
+
+# Length
+print(len(sets1))
+
+# Sorted
+print(sorted(sets1))
+
+# Sum
+print(sum(sets1))
 
 # Clear the set
 sets1.clear()
