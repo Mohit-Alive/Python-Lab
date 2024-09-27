@@ -53,3 +53,33 @@ print(sum(sets1))
 # Clear the set
 sets1.clear()
 print(sets1)
+
+
+# Dictionary
+
+dict1 = {1: "Jan", 2: "Feb", 3: "March"}
+
+# To access the value using key
+print(dict1[1])
+
+# Traversing
+for key in (dict1):
+    print(f"{key} : {dict1[key]}")
+
+# Updation
+dict1.update({3: "April"})
+
+# Deletion
+del dict1[3]
+
+# To get keys
+print(dict1.keys())
+
+# To get value of the dictionary
+print(dict1.values())
+
+# To get the key and value pair of dictionary
+print(dict1.items())
+
+# To empty the dictionary
+print(dict1.clear())
